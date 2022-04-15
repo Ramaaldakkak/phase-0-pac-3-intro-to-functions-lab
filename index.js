@@ -1,24 +1,18 @@
-//correct:
-
 function shout(string) {
     return string.toUpperCase();;
 }
-
 
 function whisper(string) {
     return string.toLowerCase();
 }
 
-
 function logShout(string) {
     console.log(string.toUpperCase());
 }
 
-
 function logWhisper(string) {
     console.log(string.toLowerCase());
 }
-
 
 function sayHiToHeadphonedRoommate (string) {
     let toRoommate;
@@ -28,6 +22,6 @@ function sayHiToHeadphonedRoommate (string) {
         toRoommate = "YES INDEED!";
     } else if (string === "Let\'s have dinner together!") {
         toRoommate = "I would love to!";
-    } 
+    }
     return toRoommate;
 }
